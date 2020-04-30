@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ff5722;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Info">
+   <children>
+      <Label layoutX="56.0" layoutY="44.0" prefHeight="92.0" prefWidth="508.0" text="Application created by Ahmed Sakic">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="233.0" text="Contract:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="321.0" prefHeight="40.0" prefWidth="112.0" text="sakic.ahmed">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="325.0" text="sakicahmed@yahoo.com">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="54.0" fitWidth="61.0" layoutX="14.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="54.0" fitWidth="61.0" layoutX="14.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="54.0" fitWidth="61.0" layoutX="14.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-instagram-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="73.0" layoutX="237.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-important-mail-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
